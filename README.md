@@ -6,4 +6,4 @@
 ### 运行环境
     python2.7 + tensorflow1.0
 ### 训练测试
-    直接运行：python imageclassify 即可
+    直接运行：python imageclassify.py 即可
