@@ -24,6 +24,5 @@
     train acc: 0.733681
     validation loss: 1.012621
     validation acc: 0.637784
-  由上述结果可以看出，模型已经过拟合，为此，在源代码中，加入drop-out防止过拟合：
-### droup out
+###### 由上述结果可以看出，模型已经过拟合，为此，在源代码中，加入drop-out防止过拟合：
     dropout = tf.layers.dropout(inputs=re1, rate=0.5)
